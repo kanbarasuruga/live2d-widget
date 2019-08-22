@@ -20,6 +20,8 @@ function loadWidget(waifuPath, apiPath) {
 			</div>
 		</div>`);
 	$("#waifu").show().animate({ bottom: 0 }, 3000);
+	
+	$("#waifu").draggable({ revert: live2d_settings.waifuDraggableRevert });
 
 	function registerEventListener() {
 		$("#waifu-tool .fa-comment").click(showHitokoto);
