@@ -61,12 +61,12 @@
 }
 #waifu-tool {
 	color: #aaa;
-	top: 100px;
-	right: -10px;
+	top: 120px;
+	right: -30px;
 	position: absolute;
 	opacity: 0;
 	transition: opacity 1s;
-	font-size: 36px;
+	font-size: 32px;
 }
 #waifu:hover #waifu-tool {
 	opacity: 1;
@@ -74,7 +74,7 @@
 #waifu-tool span {
 	display: block;
 	cursor: pointer;
-	line-height: 50px;
+	line-height: 60px;
 	text-align: center;
 	color: #5b6c7d;
 	transition: color .3s;
